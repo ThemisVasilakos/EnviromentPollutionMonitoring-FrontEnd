@@ -1,0 +1,42 @@
+.user-guide {
+    position: fixed;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-image:  url('/cool-background.png');
+    background-size: cover; 
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: calc(100vh - 70px); 
+}
+
+
+.centered-text {
+    text-align: center; 
+}
+
+.user-guide-text {
+    color: black;
+}
+
+.rounded-image {
+    width: 700px; /* Set your desired width */
+    height: auto; 
+    border-radius: 10px; 
+    margin-right: 20px;
+}
+
+.h3-home {
+    color: #7e3333;
+}
+
+.h4-home {
+    color: black;
+}
+
+.expl{
+    color: #7e3333;
+}

@@ -1,0 +1,131 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #041f31;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  justify-content: center;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.navbar-brand .app-name {
+  font-size: 1.5em;
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.search-container input[type="text"],
+.search-container input[type="date"],
+.search-container select {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.search-container select {
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.search-container button {
+    background-color: #fff;
+    color: #3498db;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    box-sizing: border-box;
+    width: 120px;
+    font-size: 16px;
+  }
+
+.about-link {
+  background-color: #943929;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  box-sizing: border-box;
+  width: 120px;
+}
+
+.search-container button:hover{
+  background-color: #3498db;
+  color: #fff; 
+  border-color: #fff;
+}
+
+.about-link:hover {
+  background-color: #fff;
+  color: #943929; 
+  border-color: #943929;
+}
+
+.about-container {
+  margin-left: 20px;
+}
+
+.about-link {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 5px;
+  }
+
+  .search-container {
+    gap: 10px;
+    padding-right: 10px;
+  }
+
+  .search-container button {
+    padding: 8px 20px;
+  }
+
+  .about-container {
+    margin-left: 10px;
+  }
+}
+
+.search-container .calendar-btn{
+  font-size: 16px;
+}
+
